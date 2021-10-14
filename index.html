@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ARDHRM | Junior Web Developer</title>
+	<link rel="icon" type="image/png" href="vf.png">
+	<link rel="stylesheet" href="assets/css/index.css">
+	<!-- new theme -->
+	<link rel="stylesheet" href="assets/css/neu.css">
+	<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, viewport-fit=cover">
+</head>
+<body data-theme="light">
+	<div class="shadow"></div>
+	<div class="bg"></div>
+	<div class="container">
+		<div class="menuA">
+			<a href="https://www.instagram.com/ardhrm" class="menuItem">
+				<i class="icon-instagram"></i>
+			</a>
+			<a href="https://wa.me/6285155019022" class="menuItem">
+				<i class="icon-whatsapp"></i>
+			</a>
+			<a href="mailto:xardhrm@gmail.com" class="menuItem">
+				<i class="icon-mail"></i>
+			</a>	
+		</div>
+		<div class="menuB">
+			<a class="mIB menuItem menuBActive" title="Home" data-id="page1">
+				<i class="icon-home"></i>
+			</a>
+			<a class="mIB menuItem" title="About" data-id="page2">
+				<i class="icon-user"></i>
+			</a>
+			<a class="mIB menuItem" title="Contact" data-id="page3">
+				<i class="icon-globe"></i>
+			</a>	
+			<a class="mIB menuItem" title="Projects" data-id="page4">
+				<i class="icon-th-large"></i>
+			</a>	
+		</div>
+		<div class="page page1 pageShow">
+			<div class="row">
+				<div class="col50a">
+					<div class="profile"></div>
+				</div>
+				<div class="col50b">
+					<div class="profDesc">
+						<h1>Arif <br> Dharma <br> Putra</h1>
+						<p>junior web developer</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="page page2 pageHidden">
+			<div class="row">
+				<div class="col100">
+					<div class="title"><h1>About</h1></div>
+				</div>
+				<div class="col100">
+					<p class="aboutDesc">Seorang manusia kelahiran 2000, merupakan peternak sapi perah namun suka sekali dengan dunia komputer. Web ini sisa sisa ilmu yang terpelajari dari sekolah SMK mengambil jurusan Rekayasa Perangkat Lunak.</p>
+				</div>
+			</div>
+				<div class="tglSwitch diP2" title="Ganti Tema">
+					<!-- ditekan light jadi light mode, ditekan light lagi jadi dark mode :" -->
+					<label for="tDarkMode" class="tSLabel">light</label>
+					<label class="tS">
+						<input id="tDarkMode" type="checkbox">
+						<span class="tSReal"></span>
+					</label>
+					<label for="tDarkMode" class="tSLabel">dark</label>
+				</div>
+		</div>
+		<div class="page page3 pageHidden">
+			<div class="row">
+				<div class="col100">
+					<div class="title"><h1>Contact</h1></div>
+				</div>
+				<div class="col100">
+					<div class="contact">
+						<a href="https://www.instagram.com/ardhrm" class="contactItem">
+							<i class="icon-instagram"></i> <span>ardhrm</span>
+						</a>
+						<a href="https://github.com/ardhrm" class="contactItem">
+							<i class="icon-github-circled"></i> <span>ardhrm</span>
+						</a>
+						<a href="https://wa.me/6285155019022" class="contactItem">
+							<i class="icon-whatsapp"></i> <span>+62 85 155 019 022</span>
+						</a>
+						<a href="mailto:xrdhrm@gmail.com" class="contactItem">
+							<i class="icon-mail"></i> <span>xardhrm@gmail.com</span>
+						</a>
+						<a href="https://ardhrm.github.io/" class="contactItem">
+							<i class="icon-globe-1"></i> <span>ardhrm.github.io</span>
+						</a>
+						<a href="https://github.com/ardhrm/afarhansib.github.io" class="forkme">Fork me on GitHub</a>
+						<div class="tglSwitch" title="Autoganti (:v) Page">
+							<label class="tS">
+								<input id="tAutoplay" type="checkbox" checked="true">
+								<span class="tSReal"></span>
+							</label>
+							<label for="tAutoplay" class="tSLabel">autochange</label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="page page4 pageHidden">
+			<div class="row">
+				<div class="col100">
+					<div class="title"><h1>Projects</h1></div>
+				</div>
+				<div class="col100 projList">
+					<div class="projItem">
+						<div class="piLogo">
+							<img src="assets/img/tashlen.svg" alt="logo Tashlen">
+						</div>
+						<h2>Tashlen</h2>
+						<p>penghitung dzikir online</p>
+						<a class="btn" href="tashlen">Buka</a>
+					</div>
+					<div class="projItem">
+						<div class="piLogo">
+							<img src="assets/img/subkal.png" alt="logo Subkal">
+						</div>
+						<h2>Subkal</h2>
+						<p>penghitung ip subnet</p>
+						<a class="btn" href="subkal">Buka</a>
+					</div>
+					<div class="projItem">
+						<div class="piLogo">
+							<img src="https://afarhansib.github.io/ayomad/assets/img/icon-192.png" alt="logo Ayo Mad !">
+						</div>
+						<h2>Ayo Mad !</h2>
+						<p>pengabsen mungkin</p>
+						<a class="btn" href="ayomad">Buka</a>
+					</div>
+					<div class="projItem">
+						<div class="piLogo">
+							<img src="https://afarhansib.github.io/ancod/icon.png" alt="logo Ancod">
+						</div>
+						<h2>Ancod</h2>
+						<p>covid-19 dashboard</p>
+						<a class="btn" href="ancod">Buka</a>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="row">
+				<div class="col100">
+					<div class="title"><h1>Projects</h1></div>
+				</div>
+			</div> -->
+			<!-- <div class="row">
+				<div class="col50a ">
+					<i class="icon-tashlen"></i>
+					<h1>Tashlen</h1>
+					<p>penghitung dzikir online</p>
+				</div>
+				<div class="col50b">
+					
+				</div>
+			</div> -->
+		</div>
+		<div class="copyright" title="Created at Fri, 23 Aug - Sat, 24 Aug 2019">Made with &hearts; in <span title="Bareng, Pudak, East Java, Indonesia">Bareng</span> by <a href="https://ardhrm.github.io/">ardhrm</a></div>
+	</div>
+	<script src="assets/js/index.js"></script>
+</body>
+</html>
